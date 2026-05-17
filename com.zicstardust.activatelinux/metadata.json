@@ -1,12 +1,12 @@
 {
     "KPlugin": {
-        "Id": "com.zicstardust.activelinux",
-        "Name": "Active Linux",
-        "Description": "Show Active Linux on your desktop.",
+        "Id": "com.zicstardust.activatelinux",
+        "Name": "Activate Linux",
+        "Description": "Show Activate Linux on your desktop.",
         "Category": "Graphics",
         "Icon": "preferences-desktop-wallpaper",
         "Version": "0.1.0",
-        "Website": "https://github.com/zicstardust/Activate-linux-plasmoid",
+        "Website": "https://github.com/zicstardust/Activatate-linux-plasmoid",
         "Authors": [
             {
                 "Name": "Zic Stardust",
