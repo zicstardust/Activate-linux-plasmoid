@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "com.zicstardust.activelinux",
+        "Name": "Active Linux",
+        "Description": "Show Active Linux on your desktop.",
+        "Category": "Graphics",
+        "Icon": "preferences-desktop-wallpaper",
+        "Version": "1.0",
+        "Website": "https://github.com/zicstardust/Activate-linux-plasmoid",
+        "Authors": [
+            {
+                "Name": "Zic Stardust",
+                "Email": "contact@zicstardust.com"
+            }
+        ]
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
