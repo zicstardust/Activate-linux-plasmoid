@@ -2,4 +2,4 @@
 
 
 #Need Plasma-Sdk installed
-plasmoidviewer -a ./com.zicstardust.activelinux
+plasmoidviewer -a ./com.zicstardust.activatelinux
