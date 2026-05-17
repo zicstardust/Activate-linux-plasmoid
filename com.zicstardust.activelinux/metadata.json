@@ -5,7 +5,7 @@
         "Description": "Show Active Linux on your desktop.",
         "Category": "Graphics",
         "Icon": "preferences-desktop-wallpaper",
-        "Version": "1.0",
+        "Version": "0.1.0",
         "Website": "https://github.com/zicstardust/Activate-linux-plasmoid",
         "Authors": [
             {
