@@ -19,20 +19,20 @@ PlasmoidItem {
 
 
         FontLoader {
-            id: segoeUILigth
-            source: "../fonts/segoe-ui-light.ttf"
+            id: segoeuiligth
+            source: Qt.resolvedUrl("../fonts/segoe-ui-light.ttf")
         }
 
         FontLoader {
-            id: segoeUIRegular
-            source: "../fonts/Segoe UI.ttf"
+            id: segoeuiregular
+            source: Qt.resolvedUrl("../fonts/Segoe UI.ttf")
         }
 
         PlasmaComponents.Label {
             id: myLabel1
             text: "Activate Linux"
             font.pixelSize: 25
-            font.family: segoeUILigth.name
+            font.family: segoeuiligth.name
             color: "white"
             opacity: 0.5 
             horizontalAlignment: Text.AlignHCenter
@@ -42,7 +42,7 @@ PlasmoidItem {
             id: myLabel2
             text: "Go to Settings to activate Linux."
             font.pixelSize: 25
-            font.family: segoeUIRegular.name
+            font.family: segoeuiregular.name
             color: "white"
             opacity: 0.5 
             horizontalAlignment: Text.AlignHCenter
