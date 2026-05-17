@@ -1,6 +1,8 @@
 import QtQuick
 import org.kde.plasma.plasmoid
+import QtQuick.Layouts
 import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
 
 
 
@@ -10,23 +12,29 @@ PlasmoidItem {
 
     Plasmoid.backgroundHints: PlasmaCore.Types.NoBackground
 
-    preferredRepresentation: fullRepresentation
 
-    fullRepresentation: Image {
+    ColumnLayout {
+        anchors.fill: parent
+        spacing: 0
 
-        id: image
+        PlasmaComponents.Label {
+            id: myLabel1
+            text: "Activate Linux"
+            font.pixelSize: 25
+            font.family: "Segoe UI Ligth"
+            color: "white"
+            opacity: 0.5 
+            horizontalAlignment: Text.AlignHCenter
+        }
 
-        width: sourceSize.width
-        height: sourceSize.height
-
-        //width: 457
-        //height: 86
-
-        //anchors.fill: parent
-        
-        fillMode: Image.PreserveAspectFit
-
-        source: Qt.resolvedUrl("../images/image.svg")
-    
+        PlasmaComponents.Label {
+            id: myLabel2
+            text: "Go to Settings to activate Linux."
+            font.pixelSize: 25
+            font.family: "Segoe UI"
+            color: "white"
+            opacity: 0.5 
+            horizontalAlignment: Text.AlignHCenter
+        }
     }
 }

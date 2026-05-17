@@ -9,4 +9,4 @@ else
     kpackagetool6 --type Plasma/Applet -i com.zicstardust.activelinux.plasmoid
 fi
 
-plasmashell --replace &
+#plasmashell --replace &
