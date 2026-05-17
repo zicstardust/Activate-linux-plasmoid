@@ -2,7 +2,7 @@
 
 - Plasma Minimum Version: 6.0
 
-![Exemple](https://github.com/zicstardust/activate-linux-plasmoid/raw/refs/heads/main/com.zicstardust.activatelinux/image.png)
+![Exemple](./image.png)
 
 ## Test from code
 
